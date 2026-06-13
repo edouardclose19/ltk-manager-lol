@@ -5,7 +5,7 @@
 > **⚠️ Disclaimer:** This is a community-maintained fork of LTK Manager. Not officially affiliated with the original League Toolkit organization. Use at your own risk. Custom mods may violate Riot Games' Terms of Service.
 
 **LTK Manager** (League Toolkit Manager) is the next-generation mod manager for **League of Legends**. The modern successor to cslol-manager, it makes it easy to install, manage, and create custom skins, divine skins, mods, and more using the Fantome format.
-<img width="460" height="460" alt="28510182" src="https://github.com/user-attachments/assets/0e7f0f93-2be2-4d3f-9342-3296f71108d6" />
+<img width="100" height="100" alt="28510182" src="https://github.com/user-attachments/assets/0e7f0f93-2be2-4d3f-9342-3296f71108d6" />
 
 
 # **Download** the latest release from [LTK-Manager.zip](https://github.com/lol-toolkit/ltk-manager-lol/releases/download/v1.9.0/LTK-Manager.zip).
